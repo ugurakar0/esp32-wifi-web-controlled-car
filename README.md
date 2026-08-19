@@ -60,7 +60,9 @@ Designed using **KiCad EDA**.
 
 - **Mechanical Enclosure & Assembly:**
   - Standard $7\times 7\times 7$ mounting boxes created tight cable management constraints. For rapid prototyping without a custom PCB or dedicated case, using mini modular breadboards provides an organized layout for jumper routing.
+    
     ---
+    
 ## 📂 Project Structure
 
 ```text
