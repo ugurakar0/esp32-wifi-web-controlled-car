@@ -55,3 +55,22 @@ Designed using **KiCad EDA**.
 ├── kaynak/                    # Embedded source code directory
 │   └── esp32_wifi_car.ino     # Main C++/Arduino firmware
 └── README.md                  # Project documentation
+---
+
+## 🚀 Getting Started
+
+### 1. Flashing Firmware
+1. Open `kaynak/esp32_wifi_car.ino` in Arduino IDE.
+2. Select your ESP32 board (e.g., `ESP32 Dev Module`).
+3. Ensure ESP32 Board Package version is **3.x+**.
+4. Upload the sketch.
+
+### 2. Connecting & Driving
+1. Power up the vehicle.
+2. Connect your phone/PC to Wi-Fi SSID: `ESP32-Car` (Password: `password123`).
+3. Open your browser and navigate to: `[http://192.168.4.1](http://192.168.4.1)`
+
+---
+
+## 📜 Acknowledgements & Credits
+- 3D printable mechanical mounting components sourced via [Thingiverse](https://www.thingiverse.com/).
