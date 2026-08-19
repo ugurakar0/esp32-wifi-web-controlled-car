@@ -59,10 +59,10 @@ Designed using **KiCad EDA**.
   - Hardware wiring variances can easily invert motor directions. Direction logic can be corrected purely in software within the motor control functions (`driveMotors`) or pin definitions without requiring desoldering.
 
 - **Mechanical Enclosure & Assembly:**
-  - Standard $7\times 7\times 7$ mounting boxes created tight cable management constraints. For rapid prototyping without a custom PCB or dedicated case, using mini modular breadboards provides an organized layout for jumper routing.
-    
-    ---
-    
+  - Standard 7x7x7 mounting boxes created tight cable management constraints. For rapid prototyping without a custom PCB or dedicated case, using mini modular breadboards provides an organized layout for jumper routing.
+
+---
+
 ## 📂 Project Structure
 
 ```text
