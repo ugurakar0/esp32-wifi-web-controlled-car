@@ -44,7 +44,23 @@ Designed using **KiCad EDA**.
 ![Circuit Schematic](esp32-wifi-car-circuit.svg)
 
 ---
+## 🔧 Engineering Notes, Debugging & Hardware Insights
 
+- **Power Architecture & Safety (2S Li-ion Configuration):**
+  - Powered via two **18650 Li-ion cells (3.7V, 2000mAh each)** in series to provide a nominal **7.4V** rail directly to the L298N driver.
+  - **Reverse Polarity Warning:** Extreme caution must be exercised during battery wiring. Reverse polarity will permanently damage the L298N driver/ESP32 and poses a severe thermal runaway / fire hazard.
+  - **Current Starvation Troubleshooting:** If the motors receive voltage (LED indicators on) but stall or fail to rotate under load, it indicates insufficient discharge current or low battery voltage under load rather than a firmware bug.
+
+- **Networking Architecture (AP Mode Decision):**
+  - Testing in Station (STA) mode over standard home routers revealed intermittent latency spikes and packet drops, clearly visualized on the `/graph` telemetry page.
+  - For zero-latency local responsiveness, the **Access Point (AP) mode** was selected as the primary operating standard, eliminating external router overhead.
+
+- **Software Direction Alignment:**
+  - Hardware wiring variances can easily invert motor directions. Direction logic can be corrected purely in software within the motor control functions (`driveMotors`) or pin definitions without requiring desoldering.
+
+- **Mechanical Enclosure & Assembly:**
+  - Standard $7\times 7\times 7$ mounting boxes created tight cable management constraints. For rapid prototyping without a custom PCB or dedicated case, using mini modular breadboards provides an organized layout for jumper routing.
+    ---
 ## 📂 Project Structure
 
 ```text
