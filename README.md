@@ -91,4 +91,9 @@ Designed using **KiCad EDA**.
 ---
 
 ## 📜 Acknowledgements & Credits
-- 3D printable mechanical mounting components sourced via [Thingiverse](https://www.thingiverse.com/).
+
+The 3D printable mechanical components used in this build are sourced from the following open-source designs:
+
+- **Enclosure Box (`7x7x7 box.stl`):** Simple Box 70x70x70 via [MakerWorld](https://makerworld.com/en/models/800273-simple-box-70x70x70#profileId-740164)
+- **L298N Motor Driver Mount (`L298N Holder.stl`):** L298N Holder Bracket via [Thingiverse](https://www.thingiverse.com/thing:2240830/files)
+- **TT Gear Motor Chassis Brackets (`TT Motor Tutucu.stl`):** Dual TT Motor Mount via [Thingiverse](https://www.thingiverse.com/thing:5611259)
