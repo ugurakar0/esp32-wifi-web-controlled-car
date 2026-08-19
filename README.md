@@ -55,7 +55,7 @@ Designed using **KiCad EDA**.
 ├── kaynak/                    # Embedded source code directory
 │   └── esp32_wifi_car.ino     # Main C++/Arduino firmware
 └── README.md                  # Project documentation
----
+```
 
 ## 🚀 Getting Started
 
